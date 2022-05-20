@@ -1,0 +1,39 @@
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 10vh;
+  background: rgb(37, 37, 37);
+  background: linear-gradient(
+    45deg,
+    rgba(37, 37, 37, 1) 0%,
+    rgba(84, 110, 122, 1) 100%
+  );
+  .footer-devs {
+    margin: 0.5rem 1rem;
+    .footer-devs-intro,
+    .footer-copyright {
+      font-family: "Teko", sans-serif;
+      color: $greyBlue;
+      text-align: left;
+      font-size: $font-size-small;
+    }
+    .footer-devs-names {
+      font-family: "dolceVita", sans-serif;
+      color: #5fd9d1;
+      text-align: left;
+      font-size: $font-size-small;
+    }
+  }
+  .footer-social {
+    margin-right: 0.5rem;
+    svg {
+      height: 5vh;
+      margin: 0 0.5rem;
+      color: $grey;
+    }
+  }
+  p{
+    margin: 0;
+}
+}
