@@ -1,0 +1,27 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0;
+  width: 100vw;
+  position: fixed;
+  height: 7vh;
+  top: 0;
+  z-index: 3;
+  .brand {
+    display: flex;
+    align-items: center;
+    margin: 0 1rem;
+    .brand-name-text {
+      height: 6vh;
+    }
+    .brand-logo {
+      height: 5vh;
+      margin-left: 0.5rem;
+    }
+  }
+  .menuIcon {
+    height: 4vh;
+    margin-right: 1rem;
+  }
+}
