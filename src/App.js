@@ -1,12 +1,16 @@
-import './App.css';
-import Footer from './components/Footer/Footer';
-import Header from './components/Header/Header';
-import WhatsappIcon from './components/WhatsappIcon/WhatsappIcon';
+import Header from './Components/layout/Header';
+import Main from './Components/layout/Main';
+import Footer from './Components/layout/Footer';
+import WhatsappIcon from './Components/WhatsappIcon';
+import "./styles/main.scss"
+import MobileMenu from './Components/layout/MobileMenu';
 
 function App() {
   return (
     <div className="App">
       <Header />
+      <MobileMenu />
+      <Main />
       <WhatsappIcon />
       <Footer />
     </div>
