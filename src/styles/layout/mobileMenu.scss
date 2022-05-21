@@ -1,4 +1,6 @@
 .mobileMenu {
+  position: fixed;
+  top: -100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -6,12 +8,13 @@
   width: 100vw;
   height: 100vh;
   z-index: 2;
-  background: rgb(55, 55, 53);
+  background: hsla(60, 2%, 21%, 0.95);
   background: linear-gradient(
     0deg,
-    rgba(55, 55, 53, 1) 0%,
-    rgba(84, 110, 122, 1) 100%
+    hsla(60, 2%, 21%, 0.95) 0%,
+    hsla(199, 18%, 40%, 0.95) 100%
   );
+  transition: top 0.8s ease-in-out;
   .menu-links {
     width: 60vw;
     text-align: center;
@@ -38,4 +41,7 @@
     color: $white;
     font-size: $font-size-xxlarge;
   }
+}
+.show{
+    top: 0;
 }

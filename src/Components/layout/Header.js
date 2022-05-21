@@ -1,4 +1,7 @@
 const Header = () => {
+ function handleClick() {
+  document.getElementById('mobileMenu').classList.toggle('show');
+}
     return (
         <header>
             {/*---- Branding ----*/}
@@ -8,7 +11,7 @@ const Header = () => {
                 <img src="/images/branding/LogoThalamus.svg" className="brand-logo" alt="logo" />
             </div>
             {/*---- Menu Icon ----*/}
-            <img src="/images/icons/menuIcon.svg" alt="Menu Icon" className="menuIcon" />
+            <img src="/images/icons/menuIcon.svg" alt="Menu Icon" className="menuIcon" onClick={handleClick} />
             {/*---- Navbar ----*/
             /* <nav className="navbar">
                 Acá va el navbar

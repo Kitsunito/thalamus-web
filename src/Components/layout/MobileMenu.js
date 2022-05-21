@@ -4,7 +4,7 @@ import { faWhatsapp, faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 const MobileMenu = () => {
   return (
-    <div className="mobileMenu">
+    <div className="mobileMenu" id="mobileMenu">
       <div className="menu-links">
         <h2>SOBRE NOSOTROS</h2>
         <hr />
