@@ -12,7 +12,7 @@ const Footer = () => {
             </div>
             {/*---- Social Media ----*/}
             <div className="footer-social">
-                <a href="https://wa.me/+5493816263576" target='_blank' rel="noreferrer"><FontAwesomeIcon icon={faWhatsapp} /></a>
+                <a href="https://wa.me/+5493816263576?text=%C2%A1Hola!%20Queria%20consultar%20para%20empezar%20a%20entrenar%20con%20ustedes" target='_blank' rel="noreferrer"><FontAwesomeIcon icon={faWhatsapp} /></a>
                 <a href="https://www.instagram.com/thalamus_altorendimiento/" target='_blank' rel="noreferrer"><FontAwesomeIcon icon={faInstagram} /></a>
             </div>
         </footer>
