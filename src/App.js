@@ -15,6 +15,7 @@ import Ejercicios from './pages/Ejercicios';
 
 //Style
 import "./styles/main.scss"
+import FuturoThalamus from './pages/FuturoThalamus';
 
 
 
@@ -29,7 +30,7 @@ function App() {
           <Route path="/nosotros" element={<SobreNosotros />}/>
           <Route path="/ejercicios" element={<Ejercicios />}/>
           <Route path="/planes" element={<Planes />}/>
-          <Route path="/futuro-thalamus" />
+          <Route path="/futuro-thalamus" element={<FuturoThalamus />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
         <WhatsappIcon />

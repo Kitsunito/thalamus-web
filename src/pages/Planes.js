@@ -5,8 +5,8 @@ const Planes = () => {
                 <article className="bg-1">
                     <h2>PLANES</h2>
                     <h3>Instroducción</h3>
-                    <p>Desde Thalamus buscamos que el deportista aprenda a creer en un PROCESO a corto,
-                        mediano y largo plazo sobre todo. Buscamos generarle un hábito de CONSTANCIA a
+                    <p>Desde Thalamus buscamos que el deportista aprenda a creer en un <span>PROCESO</span> a corto,
+                        mediano y largo plazo sobre todo. Buscamos generarle un hábito de <span>CONSTANCIA</span> a
                         través del deporte y el entrenamiento pero que después se transforma en algo
                         aplicable al dia a dia. Y por último que entienda que para poder cumplir sus
                         objetivos debe saber lo que significa el valor del <span>ESFUERZO</span>, que por más talento
