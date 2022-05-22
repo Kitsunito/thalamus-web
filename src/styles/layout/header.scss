@@ -2,11 +2,11 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 1rem 0;
   width: 100vw;
   position: fixed;
-  height: 7vh;
+  height: 10vh;
   top: 0;
+  background-color: hsla(0, 0%, 15%, 0.5);
   z-index: 5;
   .brand {
     display: flex;

@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+a {
+    text-decoration: none;
+}
 
 //fonts
 @import url("https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap");
@@ -38,6 +41,8 @@ $border-radius-large: 10px;
 @import "./layout/mobileMenu";
 //Components
 @import "./components/wappFixed";
-@import "./components/index-section";
 @import "./components/carrousel";
 @import "./components/contactForm";
+//pages
+@import "./components/pages/index-section";
+@import "./components/pages/planes";

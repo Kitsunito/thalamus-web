@@ -5,19 +5,12 @@ const ContactForm = () => {
         <section className='contactForm'>
             <h2>Contactanos</h2>
             <form action="">
-                <div className="input">
-                    <label for="name">Nombre</label>
-                    <input type="text" />
-                </div>
-                <div className="input">
-                    <label for="email">Email</label>
-                    <input type="email" />
-                </div>
-                <div className="input">
-                    <label for="message">Mensaje</label>
-                    <textarea type="text" cols="30" rows="10" ></textarea>
-                </div>
-                <button type="submit">ENVIAR</button>
+                <label htmlFor="name">Nombre</label>
+                <input type="text" />
+                <label htmlFor="email">Email</label>
+                <input type="email" />
+                <label htmlFor="message">Mensaje</label>
+                <textarea type="text" cols="30" rows="10" ></textarea>
             </form>
         </section>
     )
