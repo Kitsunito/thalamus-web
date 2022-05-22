@@ -5,11 +5,11 @@ const ContactForm = () => {
         <section className='contactForm'>
             <h2>Contactanos</h2>
             <form action="">
-                <label for="name">Nombre</label>
+                <label htmlFor="name">Nombre</label>
                 <input type="text" />
-                <label for="email">Email</label>
+                <label htmlFor="email">Email</label>
                 <input type="email" />
-                <label for="message">Mensaje</label>
+                <label htmlFor="message">Mensaje</label>
                 <textarea type="text" cols="30" rows="10" ></textarea>
             </form>
         </section>
