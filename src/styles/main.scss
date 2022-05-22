@@ -35,6 +35,12 @@ $font-size-xxxlarge: 3rem;
 //border-Radius
 $border-radius-medium: 5px;
 $border-radius-large: 10px;
+//drop-shadow
+
+$drop-shadow-light: 2px 2px 6px #25252580;
+$drop-shadow-dark: 2px 2px 6px #11111180;
+
+
 //Layout
 @import "./layout/header";
 @import "./layout/footer";
@@ -46,3 +52,4 @@ $border-radius-large: 10px;
 //pages
 @import "./components/pages/index-section";
 @import "./components/pages/planes";
+@import "./components/pages/sobreNosotros";

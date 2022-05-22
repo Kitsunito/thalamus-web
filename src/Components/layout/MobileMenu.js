@@ -7,12 +7,12 @@ const MobileMenu = () => {
   function handleClick() {
     if (document.getElementById('mobileMenu').classList.contains('show')) {
       document.getElementById('mobileMenu').classList.toggle('show');
-  }
+    }
   }
   return (
     <div className="mobileMenu" id="mobileMenu">
       <div className="menu-links">
-        <Link to="/nosotros"><h2 onClick={handleClick}>SOBRE NOSOTROS</h2></Link>
+        <Link to="/nosotros"><h2 onClick={handleClick}>SOBRE <span>NOSOTROS</span></h2></Link>
         <hr />
         <Link to="/ejercicios"><h2 onClick={handleClick}>EJERCICIOS</h2></Link>
         <hr />
@@ -21,8 +21,8 @@ const MobileMenu = () => {
         <Link to="/futuro-thalamus" onClick={handleClick}><h2>FUTURO <span>THALAMUS</span> </h2></Link>
       </div>
       <div className="menu-social">
-        <FontAwesomeIcon icon={faWhatsapp} />
-        <FontAwesomeIcon icon={faInstagram} />
+        <a href="https://wa.me/+5493816263576" target='_blank' rel="noreferrer"><FontAwesomeIcon icon={faWhatsapp} /></a>
+        <a href="https://www.instagram.com/thalamus_altorendimiento/" target='_blank' rel="noreferrer"><FontAwesomeIcon icon={faInstagram} /></a>
       </div>
     </div>
   )

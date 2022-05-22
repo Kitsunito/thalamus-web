@@ -12,8 +12,8 @@ const Footer = () => {
             </div>
             {/*---- Social Media ----*/}
             <div className="footer-social">
-                <FontAwesomeIcon icon={faWhatsapp} />
-                <FontAwesomeIcon icon={faInstagram} />
+                <a href="https://wa.me/+5493816263576" target='_blank' rel="noreferrer"><FontAwesomeIcon icon={faWhatsapp} /></a>
+                <a href="https://www.instagram.com/thalamus_altorendimiento/" target='_blank' rel="noreferrer"><FontAwesomeIcon icon={faInstagram} /></a>
             </div>
         </footer>
     )

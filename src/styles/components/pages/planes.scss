@@ -12,14 +12,23 @@
         font-size: $font-size-xxlarge;
         color: $yellow;
       }
-      span{
+      p {
+        font-size: $font-size-medium;
+        span {
           color: $lightYellow;
+        }
       }
       background-color: $black;
     }
     .bg-2 {
       padding: 0.5rem 1rem;
       background-color: $greyBlue;
+      p {
+        font-size: $font-size-medium;
+        span {
+          color: $lightYellow;
+        }
+      }
     }
   }
 }

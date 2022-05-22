@@ -29,19 +29,23 @@
         color: $lightYellow;
       }
     }
-    hr{
-        width: 30vw;
-        margin: 0 auto;
+    hr {
+      width: 30vw;
+      margin: 0 auto;
     }
   }
   .menu-social {
     width: 30vw;
     display: flex;
     justify-content: space-around;
-    color: $white;
-    font-size: $font-size-xxlarge;
+    a {
+      svg {
+        color: $white;
+        font-size: $font-size-xxlarge;
+      }
+    }
   }
 }
-.show{
-    top: 0;
+.show {
+  top: 0;
 }

@@ -10,6 +10,7 @@ import MobileMenu from './Components/layout/MobileMenu';
 //Pages
 import NotFound from './pages/NotFound'
 import Planes from './pages/Planes'
+import SobreNosotros from './pages/SobreNosotros';
 
 //Style
 import "./styles/main.scss"
@@ -23,7 +24,7 @@ function App() {
         <MobileMenu />
         <Routes>
           <Route path="/" element={<Main />} />
-          <Route path="/nosotros" />
+          <Route path="/nosotros" element={<SobreNosotros />}/>
           <Route path="/ejercicios" />
           <Route path="/planes" element={<Planes />}/>
           <Route path="/futuro-thalamus" />
