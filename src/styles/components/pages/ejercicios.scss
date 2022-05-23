@@ -1,0 +1,48 @@
+.ejercicios {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .firstSection {
+    padding-top: 11vh;
+  }
+  .bg-1 {
+    background: rgb(55, 55, 53);
+    background: linear-gradient(
+      45deg,
+      rgba(55, 55, 53, 1) 0%,
+      rgba(84, 110, 122, 1) 100%
+    );
+  }
+  .bg-2 {
+    background: rgb(55, 55, 53);
+    background: linear-gradient(
+      315deg,
+      rgba(55, 55, 53, 1) 0%,
+      rgba(17, 17, 17, 1) 100%
+    );
+  }
+  section {
+    padding: 1rem;
+    width: 100vw;
+    H2 {
+      text-align: center;
+      font-size: $font-size-xxlarge;
+      font-family: "Teko", sans-serif;
+      color: $yellow;
+      text-shadow: 2px 2px 4px $lightBlack;
+    }
+    h3 {
+      padding: 0.5rem;
+      text-align: center;
+      font-family: "Teko", sans-serif;
+      color: $white;
+      font-size: $font-size-xlarge;
+    }
+    iframe {
+      width: 320px;
+      height: 180px;
+    }
+  }
+}

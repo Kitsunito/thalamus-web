@@ -1,0 +1,34 @@
+.planes {
+  width: 100vw;
+  padding-top: 10vh;
+  background-color: $black;
+  section {
+    font-family: "Teko", sans-serif;
+    color: $white;
+    .bg-1 {
+      padding: 0.5rem 1rem;
+      h2 {
+        text-align: center;
+        font-size: $font-size-xxlarge;
+        color: $yellow;
+      }
+      p {
+        font-size: $font-size-medium;
+        span {
+          color: $lightYellow;
+        }
+      }
+      background-color: $black;
+    }
+    .bg-2 {
+      padding: 0.5rem 1rem;
+      background-color: $greyBlue;
+      p {
+        font-size: $font-size-medium;
+        span {
+          color: $lightYellow;
+        }
+      }
+    }
+  }
+}

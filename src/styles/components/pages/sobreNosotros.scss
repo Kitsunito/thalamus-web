@@ -1,0 +1,35 @@
+.sobreNosotros {
+  section {
+    position: relative;
+    height: 90vh;
+    img {
+      height: 100%;
+      width: 100vw;
+      object-fit: cover;
+      object-position: center;
+    }
+    div {
+      position: absolute;
+      top: 0;
+      padding: 15vh 2rem;
+      font-family: "Teko", "sans-serif";
+      text-shadow: $drop-shadow-light;
+      h2 {
+        text-align: center;
+        color: $white;
+        font-size: $font-size-xxlarge;
+        span {
+          color: $yellow;
+        }
+      }
+      p {
+        text-align: center;
+        font-size: $font-size-large;
+        color: $white;
+        span {
+          color: $yellow;
+        }
+      }
+    }
+  }
+}

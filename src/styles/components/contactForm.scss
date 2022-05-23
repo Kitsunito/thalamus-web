@@ -1,38 +1,63 @@
-.contactForm{
-    width: 100vw;
-    height: 80vh;
-    background-color: $black;
+.contactForm {
+  width: 100vw;
+  height: 80vh;
+  background-color: $black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  h2 {
+    margin-bottom: 1rem;
+    color: $yellow;
+    font-size: $font-size-xxxlarge;
+    font-family: "Teko", sans-serif;
+  }
+  form {
+    height: 60vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    h2{
-        margin-bottom: 2rem;
-        color: $yellow;
-        font-size: $font-size-xxxlarge;
-        font-family: "Teko", sans-serif;
-    }
-    form{
+    justify-content: space-between;
+    .input {
         display: flex;
         flex-direction: column;
         align-items: center;
-        label{
-            color: $white;
-            font-size: $font-size-xlarge;
-            font-family: "Teko", sans-serif;
-        }
-        input, textarea{
-            background-color: $lightBlack;
-            border: none;
-            width: 60vw;
-            border-radius: 5px;
-            box-shadow: 0px 0px 10px 0px #000000ee;
-        }
-        input{
-            height: 2rem;
-        }
-        textarea{
-            height: 10rem;
-        }
+      label {
+        color: $white;
+        font-size: $font-size-xlarge;
+        font-family: "Teko", sans-serif;
+      }
+      input,
+      textarea {
+        background-color: $lightBlack;
+        border: none;
+        width: 60vw;
+        border-radius: $border-radius-medium;
+        box-shadow: 0px 0px 10px 0px #000000ee;
+        font-family: 'Roboto', sans-serif;
+        font-size: $font-size-medium;
+        color: $lightYellow;
+        padding: 0 .5rem;
+      }
+      input {
+        height: 2rem;
+      }
+      textarea {
+        height: 10rem;
+      }
     }
+    button{
+        
+        border: none;
+        border-radius: $border-radius-medium;
+        background-color: $greyBlue;
+        color: $white;
+        font-size: $font-size-large;
+        font-weight: 600;
+        font-family: 'Teko', sans-serif;
+        letter-spacing: 1px;
+        padding: .2rem .5rem;
+        margin: .5rem 0;
+    }
+  }
 }

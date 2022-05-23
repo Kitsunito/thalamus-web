@@ -1,25 +1,27 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 a {
     text-decoration: none;
 }
 
 //fonts
-@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap");
 //font-family: 'Teko', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+//font-family: 'Roboto', sans-serif;
 @font-face {
-    font-family: 'dolceVita';
-    src: url(./fonts/DolceVita.ttf);
+  font-family: "dolceVita";
+  src: url(./fonts/DolceVita.ttf);
 }
 //Variables
 //Colors
-$lightYellow: #E6D94C;
-$yellow: #F0DD06;
-$white: #FFFFFF;
-$greyBlue: #536C78;
+$lightYellow: #e6d94c;
+$yellow: #f0dd06;
+$white: #ffffff;
+$greyBlue: #536c78;
 $grey: #373735;
 $lightBlack: #252525;
 $black: #111111;
@@ -30,14 +32,26 @@ $font-size-large: 1.2rem;
 $font-size-xlarge: 1.5rem;
 $font-size-xxlarge: 2rem;
 $font-size-xxxlarge: 3rem;
-//Layout
-@import './layout/header';
-@import './layout/footer';
-@import './layout/mobileMenu';
-//Components
-@import './components/wappFixed';
-@import './components/index-section';
-@import './components/index-entrenadores';
-@import './components/index-deportistas';
-@import './components/contactForm';
+//border-Radius
+$border-radius-medium: 5px;
+$border-radius-large: 10px;
+//drop-shadow
 
+$drop-shadow-light: 2px 2px 6px #25252580;
+$drop-shadow-dark: 2px 2px 6px #11111180;
+
+
+//Layout
+@import "./layout/header";
+@import "./layout/footer";
+@import "./layout/mobileMenu";
+//Components
+@import "./components/wappFixed";
+@import "./components/carrousel";
+@import "./components/contactForm";
+//pages
+@import "./components/pages/index-section";
+@import "./components/pages/planes";
+@import "./components/pages/sobreNosotros";
+@import "./components/pages/ejercicios";
+@import "./components/pages/futuroThalamus";
