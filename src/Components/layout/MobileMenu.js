@@ -18,7 +18,7 @@ const MobileMenu = () => {
         <hr />
         <Link to="/planes"><h2 onClick={handleClick}>PLANES</h2></Link>
         <hr />
-        <Link to="/futuro-thalamus" onClick={handleClick}><h2>FUTURO <span>THALAMUS</span> </h2></Link>
+        <Link to="/futuro-thalamus" onClick={handleClick}><h2>DEPORTISTAS <span>THALAMUS</span> </h2></Link>
       </div>
       <div className="menu-social">
         <a href="https://wa.me/+5493816263576?text=%C2%A1Hola!%20Queria%20consultar%20para%20empezar%20a%20entrenar%20con%20ustedes" target='_blank' rel="noreferrer"><FontAwesomeIcon icon={faWhatsapp} /></a>

@@ -1,6 +1,6 @@
 .carrousel {
   width: 100vw;
-  height: 50vh;
+  min-height: 50vh;
   position: relative;
   z-index: 0;
   .carrousel-entrenadores {
@@ -39,6 +39,17 @@
       margin: auto;
       font-size: $font-size-xxxlarge;
       font-family: "Teko", sans-serif;
+      color: $white;
+      text-align: center;
+      text-shadow: 2px 2px 4px $lightBlack;
+      span {
+        color: $yellow;
+      }
+    }
+    p{
+      padding: .5rem 1rem;
+      font-family: 'Teko', sans-serif;
+      font-size: $font-size-large;
       color: $white;
       text-align: center;
       text-shadow: 2px 2px 4px $lightBlack;
