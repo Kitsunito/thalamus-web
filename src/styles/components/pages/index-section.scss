@@ -6,9 +6,12 @@
     height: 100vh;
     width: 100vw;
     object-fit: cover;
-    object-position: center;
+    object-position: left;
     display: inline-block;
     text-align: center;
+  }
+  .ajusteBG{
+    object-position: right;
   }
   H2 {
     width: 60vw;
