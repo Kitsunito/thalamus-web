@@ -36,9 +36,7 @@
 
 @media (min-width: 768px) {
   .planes {
-    width: 100vw;
-    padding-top: 10vh;
-
+    min-height: 92vh;
     section {
       .bg-1 {
         padding: 0.5rem 1rem;
@@ -59,6 +57,64 @@
         }
         p {
           font-size: $font-size-xlarge;
+        }
+      }
+    }
+  }
+}
+
+
+@media (min-width: 1200px) {
+  .planes {
+    section {
+      padding-bottom: 2rem;
+      .bg-1 {
+        padding: 0.5rem 8rem;
+        h2 {
+          font-size: $font-size-xxxlarge;
+        }
+        h3 {
+          font-size: $font-size-large;
+        }
+        p {
+          font-size: $font-size-large;
+        }
+      }
+      .bg-2 {
+        padding: 0.5rem 8rem;
+        h3 {
+          font-size: $font-size-large;
+        }
+        p {
+          font-size: $font-size-large;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1600px) {
+  .planes {
+    section {
+      .bg-1 {
+        padding: 1rem 8rem;
+        h2 {
+          font-size: $font-size-xxxlarge;
+        }
+        h3 {
+          font-size: $font-size-large;
+        }
+        p {
+          font-size: $font-size-large;
+        }
+      }
+      .bg-2 {
+        padding: 0.5rem 8rem;
+        h3 {
+          font-size: $font-size-large;
+        }
+        p {
+          font-size: $font-size-large;
         }
       }
     }

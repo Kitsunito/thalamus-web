@@ -59,7 +59,7 @@
   }
   .navBar {
     display: flex;
-    a{
+    a {
       margin: 0 1rem;
     }
     h2 {
@@ -71,6 +71,16 @@
       margin: 1rem 0;
       span {
         color: $lightYellow;
+      }
+    }
+  }
+}
+
+@media (min-width: 1600px) {
+  .headerDesktop {
+    .navBar {
+      h2 {
+        font-size: $font-size-xlarge;
       }
     }
   }

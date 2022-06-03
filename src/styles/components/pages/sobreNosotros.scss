@@ -22,6 +22,7 @@
       padding-bottom: 0.5rem;
       font-size: $font-size-large;
       color: $white;
+      text-align: center;
       span {
         color: $yellow;
       }
@@ -35,12 +36,40 @@
       padding-bottom: 4rem;
       h2 {
         font-size: $font-size-xxxlarge;
-        span {
-          color: $yellow;
-        }
       }
       p {
-        text-align: center;
+       
+        font-size: $font-size-xlarge;
+      }
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .sobreNosotros {
+    section {
+      padding-bottom: 0rem;
+      h2 {
+        font-size: $font-size-xxlarge;
+        margin-bottom: 2rem;
+      }
+      p {
+
+        font-size: $font-size-large;
+      }
+    }
+  }
+}
+
+@media (min-width: 1600px) {
+  .sobreNosotros {
+    section {
+      min-height: 92vh;
+      h2 {
+        font-size: $font-size-xxxlarge;
+      }
+      p {
+
         font-size: $font-size-xlarge;
       }
     }
