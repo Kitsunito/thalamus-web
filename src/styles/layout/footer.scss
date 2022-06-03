@@ -34,7 +34,25 @@ footer {
       color: $grey;
     }
   }
-  p{
+  p {
     margin: 0;
+  }
 }
+
+@media (min-width: 768px) {
+  footer {
+    .footer-devs {
+      .footer-devs-intro,
+      .footer-copyright {
+        font-size: $font-size-large;
+      }
+      margin: 0.5rem 2rem;
+      .footer-devs-names {
+        font-size: $font-size-large;
+      }
+    }
+    .footer-social {
+      margin-right: 1rem;
+    }
+  }
 }

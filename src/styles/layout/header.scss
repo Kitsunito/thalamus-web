@@ -26,6 +26,15 @@
   }
 }
 
+@media (min-width: 768px) {
+  .headerMobile {
+    .menuIcon {
+      height: 3vh;
+      margin-right: 2rem;
+    }
+  }
+}
+
 .headerDesktop {
   display: flex;
   justify-content: space-between;

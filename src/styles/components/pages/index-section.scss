@@ -10,7 +10,7 @@
     display: inline-block;
     text-align: center;
   }
-  .ajusteBG{
+  .ajusteBG {
     object-position: right;
   }
   H2 {
@@ -29,6 +29,14 @@
     text-shadow: 2px 2px 4px $lightBlack;
     span {
       color: $yellow;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .index-section {
+    H2 {
+      font-size: 5rem;
     }
   }
 }

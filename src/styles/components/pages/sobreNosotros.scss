@@ -7,7 +7,7 @@
   background-size: cover;
   background-attachment: fixed;
   section {
-    padding: 12vh 2rem;
+    padding: 12vh 2rem 2rem 2rem;
     font-family: "Teko", "sans-serif";
     text-shadow: $drop-shadow-light;
     h2 {
@@ -19,11 +19,29 @@
       }
     }
     p {
-      padding-bottom: .5rem;
+      padding-bottom: 0.5rem;
       font-size: $font-size-large;
       color: $white;
       span {
         color: $yellow;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .sobreNosotros {
+    section {
+      padding-bottom: 4rem;
+      h2 {
+        font-size: $font-size-xxxlarge;
+        span {
+          color: $yellow;
+        }
+      }
+      p {
+        text-align: center;
+        font-size: $font-size-xlarge;
       }
     }
   }
