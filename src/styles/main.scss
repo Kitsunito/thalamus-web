@@ -4,7 +4,27 @@
   box-sizing: border-box;
 }
 a {
-    text-decoration: none;
+  text-decoration: none;
+}
+
+body {
+  overflow-x: hidden;
+}
+//custom-scrollbar
+::-webkit-scrollbar{
+  width: 15px;
+  background-color: #111111;
+}
+::-webkit-scrollbar-thumb{
+  background-color: #536c7875;
+  &:hover{
+    background-color: #536c78e7;
+  }
+}
+@supports (scrollbar-color: #536c78e7 #111111){
+  *{
+    scrollbar-color: #536c78e7 #111111
+  }
 }
 
 
@@ -41,7 +61,6 @@ $border-radius-large: 10px;
 
 $drop-shadow-light: 2px 2px 6px #25252580;
 $drop-shadow-dark: 2px 2px 6px #11111180;
-
 
 //Layout
 @import "./layout/header";
