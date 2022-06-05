@@ -49,3 +49,21 @@
 .show {
   top: 0;
 }
+
+@media (min-width: 768px) {
+  .mobileMenu {
+    .menu-links {
+      h2 {
+        font-size: 5rem;
+        margin: 2rem 0;
+      }
+    }
+    .menu-social {
+      a{
+        svg {
+          font-size: 4rem;
+        }
+      }
+    }
+  }
+}

@@ -2,7 +2,23 @@
     width: 3.5rem;
     position: fixed;
     right: 1rem;
-    bottom: 3rem;
+    bottom: 4rem;
     z-index: 2;
     filter: drop-shadow(2px 2px 4px #252525);
+}
+
+@media (min-width: 768px) {
+    .WhatsAppIcon{
+        width: 6rem;
+        right: 2rem;
+        bottom: 5rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .WhatsAppIcon{
+        width: 4rem;
+        right: 4rem;
+        bottom: 4rem;
+    }
 }

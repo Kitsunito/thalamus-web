@@ -1,34 +1,76 @@
 .sobreNosotros {
+  min-height: 90vh;
+  width: 100vw;
+  background-image: url("../../assets/images/fondoGym.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
   section {
-    position: relative;
-    height: 90vh;
-    img {
-      height: 100%;
-      width: 100vw;
-      object-fit: cover;
-      object-position: center;
+    padding: 12vh 2rem 2rem 2rem;
+    font-family: "Teko", "sans-serif";
+    text-shadow: $drop-shadow-light;
+    h2 {
+      text-align: center;
+      color: $white;
+      font-size: $font-size-xxlarge;
+      span {
+        color: $yellow;
+      }
     }
-    div {
-      position: absolute;
-      top: 0;
-      padding: 15vh 2rem;
-      font-family: "Teko", "sans-serif";
-      text-shadow: $drop-shadow-light;
+    p {
+      padding-bottom: 0.5rem;
+      font-size: $font-size-large;
+      color: $white;
+      text-align: center;
+      span {
+        color: $yellow;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .sobreNosotros {
+    section {
+      padding-bottom: 4rem;
       h2 {
-        text-align: center;
-        color: $white;
-        font-size: $font-size-xxlarge;
-        span {
-          color: $yellow;
-        }
+        font-size: $font-size-xxxlarge;
       }
       p {
-        text-align: center;
+       
+        font-size: $font-size-xlarge;
+      }
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .sobreNosotros {
+    section {
+      padding-bottom: 0rem;
+      h2 {
+        font-size: $font-size-xxlarge;
+        margin-bottom: 2rem;
+      }
+      p {
+
         font-size: $font-size-large;
-        color: $white;
-        span {
-          color: $yellow;
-        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1600px) {
+  .sobreNosotros {
+    section {
+      min-height: 94vh;
+      h2 {
+        font-size: $font-size-xxxlarge;
+      }
+      p {
+
+        font-size: $font-size-xlarge;
       }
     }
   }

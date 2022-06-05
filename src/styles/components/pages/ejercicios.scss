@@ -26,6 +26,10 @@
   section {
     padding: 1rem;
     width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     H2 {
       text-align: center;
       font-size: $font-size-xxlarge;
@@ -43,6 +47,25 @@
     iframe {
       width: 320px;
       height: 180px;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .ejercicios {
+    section {
+      padding: 2rem;
+      H2 {
+        font-size: $font-size-xxxlarge;
+      }
+      h3 {
+        padding: 1rem;
+        font-size: $font-size-xxlarge;
+      }
+      iframe {
+        width: 720px;
+        height: 480px;
+      }
     }
   }
 }

@@ -1,4 +1,4 @@
-const Ejercicios = () => {
+const EjerciciosDesktop = () => {
     return (
         <main className="ejercicios">
             <section className="bg-1 firstSection">
@@ -42,4 +42,4 @@ const Ejercicios = () => {
     )
 }
 
-export default Ejercicios
+export default EjerciciosDesktop
