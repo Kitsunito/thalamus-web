@@ -98,6 +98,7 @@
       font-size: 3rem;
     }
     form {
+      height: fit-content;
       .input {
         label {
           font-size: $font-size-xlarge;
@@ -109,10 +110,10 @@
           padding: 1rem;
         }
         input {
-          height: 4rem;
+          height: 3rem;
         }
         textarea {
-          height: 12rem;
+          height: 10rem;
         }
       }
       button {

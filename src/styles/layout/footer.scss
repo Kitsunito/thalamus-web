@@ -64,7 +64,11 @@ footer {
 
 @media (min-width: 1200px) {
   footer {
+    width: 100vw;
     .footer-devs {
+      display: flex;
+      justify-content: space-around;
+      width: 50vh;
       .footer-devs-intro,
       .footer-copyright {
         font-size: $font-size-small;
@@ -79,6 +83,7 @@ footer {
 
 @media (min-width: 1600px) {
   footer {
+    height: 6vh;
     .footer-devs {
       .footer-devs-intro,
       .footer-copyright {
