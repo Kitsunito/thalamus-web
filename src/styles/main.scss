@@ -9,6 +9,7 @@ a {
 
 body {
   overflow-x: hidden;
+  background-color: #111111;
 }
 //custom-scrollbar
 ::-webkit-scrollbar{
@@ -75,4 +76,5 @@ $drop-shadow-dark: 2px 2px 6px #11111180;
 @import "./components/pages/index-section";
 @import "./components/pages/planes";
 @import "./components/pages/sobreNosotros";
-@import "./components/pages/ejercicios";
+@import "./components/pages/ejerciciosMobile";
+@import "./components/pages/ejerciciosDesktop";
