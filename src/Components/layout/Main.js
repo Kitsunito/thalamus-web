@@ -6,15 +6,22 @@ import ContactForm from "./indexComponents/ContactForm"
 import EntrenadoresDesktop from "./indexComponents/EntrenadoresDesktop"
 import DeportistasDesktop from "./indexComponents/deportistasDesktop"
 
+import { motion } from "framer-motion";
+import { containerVariants } from "../../animations.js"
+
 const Main = () => {
     return (
-        <main>
+        <motion.main
+            variants={containerVariants}
+            initial="hidden"
+            animate="visible"
+            exit="exit">
             <VeniEntrenarte />
             {window.innerWidth > 1200 ? <EntrenadoresDesktop /> : <Entrenadores />}
             <AltoRendimiento />
             {window.innerWidth > 1200 ? <DeportistasDesktop /> : <Deportistas />}
             <ContactForm />
-        </main>
+        </motion.main>
     )
 }
 
