@@ -12,7 +12,7 @@ const Main = () => {
             <VeniEntrenarte />
             {window.innerWidth > 1200 ? <EntrenadoresDesktop /> : <Entrenadores />}
             <AltoRendimiento />
-            <DeportistasDesktop />
+            {window.innerWidth > 1200 ? <DeportistasDesktop /> : <Deportistas />}
             <ContactForm />
         </main>
     )

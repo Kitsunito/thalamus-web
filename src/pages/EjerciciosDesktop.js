@@ -1,8 +1,10 @@
 const EjerciciosDesktop = () => {
     return (
         <main className="ejerciciosDesktop">
-            <section className="bg-1 firstSection">
+            <section className="title">
                 <h2>EJERCICIOS</h2>
+            </section>
+            <section className="bg-1 ">
                 <div>
                     <h3>De fuerza básica de MM.II</h3>
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLx2jwbxdaQHSx8RAqsevnbBENGWBS7NQD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -43,8 +45,10 @@ const EjerciciosDesktop = () => {
                 </div>
             </section>
             <section className="bg-1">
-                <h3>Ejercicios secundarios de MM.SS</h3>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLx2jwbxdaQHT_sj4SBzfmd1QwX-iywboL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div>
+                    <h3>Ejercicios secundarios de MM.SS</h3>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLx2jwbxdaQHT_sj4SBzfmd1QwX-iywboL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
             </section>
         </main>
     )
