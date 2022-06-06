@@ -1,8 +1,18 @@
+import { motion } from "framer-motion";
+import { containerVariants, plansVariants } from "../animations";
+
 const Planes = () => {
     return (
-        <main className="planes">
+        <motion.main className="planes"
+            variants={containerVariants}
+            initial="hidden"
+            animate="visible"
+            exit="exit"
+        >
             <section>
-                <article className="bg-1">
+                <motion.article className="bg-1"
+                    variants={plansVariants}
+                >
                     <h2>PLANES</h2>
                     <h3>Instroducción</h3>
                     <p>Desde Thalamus buscamos que el deportista aprenda a creer en un <span>PROCESO</span> a corto,
@@ -14,26 +24,34 @@ const Planes = () => {
                         de entrenamiento de Alto Rendimiento. Nuestros entrenadores buscan generar un
                         vínculo con los deportistas y brindarles todas las herramientas que estén a su
                         alcance.</p>
-                </article>
-                <article className="bg-2">
+                </motion.article>
+                <motion.article className="bg-2"
+                    variants={plansVariants}
+                >
                     <h3># 1</h3>
                     <p>Una vez que el deportista tiene su primer contacto con Thalamus se le realiza una
                         pequeña entrevista para ver cuales son sus objetivos, si tuvo alguna lesión previa
                         o en el último tiempo.</p>
-                </article>
-                <article className="bg-1">
+                </motion.article>
+                <motion.article className="bg-1"
+                    variants={plansVariants}
+                >
                     <h3># 2</h3>
                     <p>Una vez que comienza de acuerdo al nivel, sus objetivos y lo que venía realizando
                         por lo general se realiza de una a dos semanas de adaptación para conocerlo y ver
                         como se mueve básicamente. Una vez que cumple ese periodo se planifica un mesociclo
                         de 4 semanas que se irá modificando.</p>
-                </article>
-                <article className="bg-2">
+                </motion.article>
+                <motion.article className="bg-2"
+                    variants={plansVariants}
+                >
                     <h3># 3</h3>
                     <p>Una vez cumplido el periodo de adaptación del deportista comenzara con su planificación
                         individual y personalizada en donde se le realizará un seguimiento diario.</p>
-                </article>
-                <article className="bg-1">
+                </motion.article>
+                <motion.article className="bg-1"
+                    variants={plansVariants}
+                >
                     <h3># 4</h3>
                     <p>Cada plan es individual, en donde el deportista tendrá la opción de elegir un plan
                         con evaluaciones, esto quiere decir que se le realizara una batería de evaluaciones
@@ -41,13 +59,17 @@ const Planes = () => {
                         incluyen un test de fuerza en un press de pecho, dominadas, sentadillas, peso muerto,
                         derivados olímpicos (una cargada de colgado y un arranque de potencia) y por ultimo
                         un test de saltos (CMJ y un hop jump a una pierna).</p>
-                </article>
-                <article className="bg-2">
+                </motion.article>
+                <motion.article className="bg-2"
+                    variants={plansVariants}
+                >
                     <h3># 5</h3>
                     <p>El costo de los planes irá variando de acuerdo a los días que venga el deportista y
                         si realiza o no evaluaciones.</p>
-                </article>
-                <article className="bg-1">
+                </motion.article>
+                <motion.article className="bg-1"
+                    variants={plansVariants}
+                >
                     <h3># 6</h3>
                     <p>Un punto a tener en cuenta es que el deportista cuenta con un soporte y seguimiento
                         online (vía whatsapp) en donde podra hablar con su entrenador por cualquier motivo
@@ -55,9 +77,9 @@ const Planes = () => {
                         sufra una lesión o algun caso del estilo poder contar con la atención de un medico
                         y un diagnostico inmediato para así poder en menos de 24hs saber que tiene y así
                         poder tratar lo antes posible para acelerar la recuperación.</p>
-                </article>
+                </motion.article>
             </section>
-        </main>
+        </motion.main>
     );
 }
 

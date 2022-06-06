@@ -7,27 +7,15 @@ import EntrenadoresDesktop from "./indexComponents/EntrenadoresDesktop"
 import DeportistasDesktop from "./indexComponents/deportistasDesktop"
 
 const Main = () => {
-    if (window.innerWidth > 1200) {
-        return (
-            <main>
-                <VeniEntrenarte />
-                <EntrenadoresDesktop />
-                <AltoRendimiento />
-                <DeportistasDesktop />
-                <ContactForm />
-            </main>
-        )
-    } else {
-        return (
-            <main>
-                <VeniEntrenarte />
-                <Entrenadores />
-                <AltoRendimiento />
-                <Deportistas />
-                <ContactForm />
-            </main>
-        )
-    }
+    return (
+        <main>
+            <VeniEntrenarte />
+            {window.innerWidth > 1200 ? <EntrenadoresDesktop /> : <Entrenadores />}
+            <AltoRendimiento />
+            <DeportistasDesktop />
+            <ContactForm />
+        </main>
+    )
 }
 
 export default Main
