@@ -1,11 +1,16 @@
 import AwesomeSlider from 'react-awesome-slider';
+import withAutoplay from 'react-awesome-slider/dist/autoplay';
 import 'react-awesome-slider/dist/styles.css';
 
+const AutoplaySlider = withAutoplay(AwesomeSlider);
 
 const DeportistasDesktop = () => {
   return (
     <section className="carrouselDesktop">
-      <AwesomeSlider
+      <AutoplaySlider
+        play={true}
+        cancelOnInteraction={true} // should stop playing on user interaction
+        interval={4000}
         bullets={false}
       >
         <div className="carrouselDesktopContainer">
@@ -66,7 +71,7 @@ const DeportistasDesktop = () => {
           </div>
 
         </div>
-      </AwesomeSlider>
+      </AutoplaySlider>
     </section >
   )
 }
