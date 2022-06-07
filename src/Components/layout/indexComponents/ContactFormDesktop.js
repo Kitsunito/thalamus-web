@@ -1,6 +1,14 @@
+import { motion } from "framer-motion";
+import { titlesVariants } from "../../../animations";
+import { useInView } from "react-intersection-observer";
+
+
 const ContactFormDesktop = () => {
+
+    const { ref, inView } = useInView();
+
     return (
-        <section className='contactForm'>
+        <section ref={ref} className='contactForm'>
             <h2>Contactanos</h2>
             <div className="contactForm-container">
                 <div>
@@ -20,14 +28,22 @@ const ContactFormDesktop = () => {
                         <button type="submit">ENVIAR</button>
                     </form>
                 </div>
-                <div>
+                {inView ? <motion.div
+                    variants={titlesVariants}
+                    initial="hidden"
+                    animate="visible"
+                    exit="exit">
                     <h3>SEGUIR CUANDO NO PUEDES MAS</h3>
                     <h3>ES LO QUE TE HACE </h3>
                     <h3><span>DIFERENTE</span> A LOS DEMAS</h3>
-                </div>
+                </motion.div> :
+                    null}
             </div>
         </section>
     )
 }
 
 export default ContactFormDesktop
+
+
+
