@@ -40,6 +40,13 @@
     }
   }
 }
+@media (min-width: 1200px) {
+  .index-section {
+    H2 {
+      width: 45vw;
+    }
+  }
+}
 
 @media (min-width: 1600px) {
   .index-section {
