@@ -1,26 +1,10 @@
-import React from 'react'
+
+import ContactFormDesktop from './ContactFormDesktop'
+import ContactFormMobile from './ContactFormMobile'
 
 const ContactForm = () => {
-    return (
-        <section className='contactForm'>
-            <h2>Contactanos</h2>
-            <form action="">
-                <div className="input">
-                    <label htmlFor="name">Nombre</label>
-                    <input type="text" />
-                </div>
-                <div className="input">
-                    <label htmlFor="email">Email</label>
-                    <input type="email" />
-                </div>
-                <div className="input">
-                    <label htmlFor="message">Mensaje</label>
-                    <textarea type="text" cols="30" rows="10" ></textarea>
-                </div>
-                <button type="submit">ENVIAR</button>
-            </form>
-        </section>
-    )
+    return window.innerWidth > 1200 ? <ContactFormDesktop /> : <ContactFormMobile /> 
+
 }
 
 export default ContactForm
