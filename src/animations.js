@@ -45,10 +45,27 @@ const titlesVariants = {
             type: 'spring',
             mass: 0.5,
             damping: 7,
-            delay: 1.5,
+            delay: 1,
         }
     },
 
+}
+
+const textsVariants = {
+    hidden: {
+        x: "10vw",
+        opacity: 0
+    },
+    visible: {
+        y: 0,
+        opacity: 1,
+        transition: {
+            type: 'spring',
+            mass: 0.5,
+            damping: 7,
+            delay: .5,
+        }
+    },
 }
 
 /* Header */
@@ -92,4 +109,4 @@ const logoVariants = {
     }
 }
 
-export { containerVariants, plansVariants, headerVariants, brandNameVariants, logoVariants, titlesVariants }
+export { containerVariants, plansVariants, headerVariants, brandNameVariants, logoVariants, titlesVariants, textsVariants }
