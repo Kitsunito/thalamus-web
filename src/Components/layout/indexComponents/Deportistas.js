@@ -26,6 +26,19 @@ const Deportistas = () => {
         </div>
 
         <div className='carrousel-deportistas'>
+          <img src="/images/profiles/PaulaSantamarina.png" alt="" srcset="" />
+          <h3>junto a <span>PAULA</span></h3>
+        </div>
+        <div>
+          <p>Me llamo Paula Santamarina, naci el  27/08/02. Empecé a jugar al hockey a los 10 años en Tucumán rugby. A los 12 me convocaron a la selecc tucumana
+            Primera Concentracion nacional a los 14 años en septiembre 2016, siendo mis primeros partidos internacionales como Estados Unidos (2018) e India - Chile ( 2021). En el mundial  2022 en Sudáfrica fui player of the match vs corea.
+            Debuto en primera en 2018 ganando los campeonatos 2018, 2019, 2021.
+            Mi objetivo es salir campeona con el seleccionado tucumano para poder ascender, con el club y poder jugar el próximo mundial junior en 2023.
+            Mi sueño es poder jugar un juego olímpico.
+          </p>
+        </div>
+
+        <div className='carrousel-deportistas'>
           <img src="/images/profiles/SantosWagner.png" alt="" srcset="" />
           <h3>junto a <span>SANTOS</span></h3>
         </div>
