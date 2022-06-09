@@ -55,7 +55,7 @@
       font-weight: 600;
       font-family: "Teko", sans-serif;
       letter-spacing: 1px;
-      padding: 0.2rem 0.5rem;
+      padding: 0.2rem 1rem;
       margin: 0.5rem 0;
     }
   }
@@ -84,9 +84,6 @@
       }
       button {
         font-size: $font-size-xxlarge;
-        letter-spacing: 1px;
-        padding: 0.2rem 0.5rem;
-        margin: 0.5rem 0;
       }
     }
   }
@@ -170,7 +167,8 @@
         }
       }
       button {
-        font-size: $font-size-xxlarge;
+        padding: 0.2rem 1.5rem;
+        font-size: $font-size-xlarge;
       }
     }
   }
