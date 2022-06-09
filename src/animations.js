@@ -33,7 +33,7 @@ const plansVariants = {
 
 }
 /*title */
-const titlesVariants = {
+const title1Variants = {
     hidden: {
         y: "-10vw",
         opacity: 0
@@ -46,6 +46,24 @@ const titlesVariants = {
             mass: 0.5,
             damping: 7,
             delay: 1,
+        }
+    },
+
+}
+
+const title2Variants = {
+    hidden: {
+        y: "-10vw",
+        opacity: 0
+    },
+    visible: {
+        y: 0,
+        opacity: 1,
+        transition: {
+            type: 'spring',
+            mass: 0.5,
+            damping: 7,
+            delay: .5,
         }
     },
 
@@ -109,4 +127,4 @@ const logoVariants = {
     }
 }
 
-export { containerVariants, plansVariants, headerVariants, brandNameVariants, logoVariants, titlesVariants, textsVariants }
+export { containerVariants, plansVariants, headerVariants, brandNameVariants, logoVariants, title1Variants, title2Variants, textsVariants }
