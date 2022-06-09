@@ -21,7 +21,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Header />
-        <MobileMenu />
+        {window.innerWidth < 768 ? <MobileMenu /> : null}
         <Routes>
           <Route path="/" element={<Main />} />
           <Route path="/nosotros" element={<SobreNosotros />}/>

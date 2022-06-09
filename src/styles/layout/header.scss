@@ -26,15 +26,6 @@
   }
 }
 
-@media (min-width: 768px) {
-  .headerMobile {
-    .menuIcon {
-      height: 3vh;
-      margin-right: 2rem;
-    }
-  }
-}
-
 .headerDesktop {
   display: flex;
   justify-content: space-between;
@@ -48,23 +39,23 @@
   .brand {
     display: flex;
     align-items: center;
-    margin: 0 1rem;
+    margin: 0 0.5rem;
     .brand-name-text {
-      height: 6vh;
+      height: 4vh;
     }
     .brand-logo {
-      height: 5vh;
+      height: 4vh;
       margin-left: 0.5rem;
     }
   }
   .navBar {
     display: flex;
     a {
-      margin: 0 2rem;
+      margin: 0 1rem;
     }
     h2 {
       color: $white;
-      font-size: $font-size-large;
+      font-size: $font-size-xlarge;
       font-family: "Teko", sans-serif;
       text-shadow: 2px 2px 4px $lightBlack;
       line-height: 1;
@@ -75,7 +66,27 @@
     }
   }
 }
-
+@media (min-width: 1200px) {
+  .headerDesktop {
+    .brand {
+      margin: 0 1rem;
+      .brand-name-text {
+        height: 6vh;
+      }
+      .brand-logo {
+        height: 6vh;
+      }
+    }
+    .navBar {
+      a {
+        margin: 0 2rem;
+      }
+      h2{
+        font-size: $font-size-large;
+      }
+    }
+  }
+}
 @media (min-width: 1600px) {
   .headerDesktop {
     .navBar {
