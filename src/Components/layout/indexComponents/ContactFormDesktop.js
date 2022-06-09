@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { titlesVariants } from "../../../animations";
+import { title2Variants } from "../../../animations";
 import { useInView } from "react-intersection-observer";
 
 
@@ -29,7 +29,7 @@ const ContactFormDesktop = () => {
                     </form>
                 </div>
                 {inView ? <motion.div
-                    variants={titlesVariants}
+                    variants={title2Variants}
                     initial="hidden"
                     animate="visible"
                     exit="exit">
