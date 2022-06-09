@@ -17,7 +17,7 @@ const Header = () => {
     }
 
     return (
-        <motion.header className={window.innerWidth > 1200 ? "headerDesktop" : "headerMobile"}
+        <motion.header className={window.innerWidth > 767 ? "headerDesktop" : "headerMobile"}
             variants={headerVariants}
             initial="hidden"
             animate="visible"
@@ -36,7 +36,7 @@ const Header = () => {
             </div>
             {/*Dependiendo del tamaño mostramos el ícono del menú o el navbar*/}
             {/*---- Menu Icon ----*/}
-            {window.innerWidth < 1200 ? 
+            {window.innerWidth < 767 ? 
                 <img src="/images/icons/menuIcon.svg" alt="Menu Icon" className="menuIcon" onClick={handleClickMenu} /> :
                 <div className='navBar'>
                     <Link to="/"><h2 >INICIO</h2></Link>
