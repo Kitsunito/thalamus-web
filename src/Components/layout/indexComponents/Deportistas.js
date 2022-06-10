@@ -15,7 +15,7 @@ const Deportistas = () => {
         fillParent={true}
       >
         <div className='carrousel-deportistas'>
-          <img src="/images/profiles/IgnacioMaestroPuch.png" alt="" srcset="" />
+          <img src="/images/profiles/IgnacioMaestroPuch.webp" alt="" srcset="" />
           <h3>junto a <span>IGNACIO</span></h3>
         </div>
         <div>
@@ -26,7 +26,7 @@ const Deportistas = () => {
         </div>
 
         <div className='carrousel-deportistas'>
-          <img src="/images/profiles/PaulaSantamarina.png" alt="" srcset="" />
+          <img src="/images/profiles/PaulaSantamarina.webp" alt="" srcset="" />
           <h3>junto a <span>PAULA</span></h3>
         </div>
         <div>
@@ -39,7 +39,7 @@ const Deportistas = () => {
         </div>
 
         <div className='carrousel-deportistas'>
-          <img src="/images/profiles/SantosWagner.png" alt="" srcset="" />
+          <img src="/images/profiles/SantosWagner.webp" alt="" srcset="" />
           <h3>junto a <span>SANTOS</span></h3>
         </div>
         <div>
@@ -50,7 +50,7 @@ const Deportistas = () => {
         </div>
 
         <div className='carrousel-deportistas'>
-          <img src="/images/profiles/LucianaGarciaGalo.png" alt="" srcset="" />
+          <img src="/images/profiles/LucianaGarciaGalo.webp" alt="" srcset="" />
           <h3>junto a <span>LUCIANA</span></h3>
         </div>
         <div>
@@ -63,7 +63,7 @@ const Deportistas = () => {
         </div>
 
         <div className='carrousel-deportistas'>
-          <img src="/images/profiles/JoaquinMecle.png" alt="" srcset="" />
+          <img src="/images/profiles/JoaquinMecle.webp" alt="" srcset="" />
           <h3>junto a <span>JOAQUIN</span></h3>
         </div>
         <div>

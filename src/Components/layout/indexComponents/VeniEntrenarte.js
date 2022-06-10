@@ -7,7 +7,7 @@ const VeniEntrenarte = () => {
 
     return (
         <article ref={ref} className="index-section">
-            <img class="ajusteBG" src="/images/backGrounds/veniEntrenarte.jpeg" alt="" />
+            {window.innerWidth < 1200 ? <img class="ajusteBG" src="/images/backGrounds/veniEntrenarteMobile.webp" alt="" /> : <img src="/images/backGrounds/veniEntrenarte.webp" alt="" />}
             {inView ? <motion.h2 variants={title1Variants}
                 initial="hidden"
                 animate="visible"

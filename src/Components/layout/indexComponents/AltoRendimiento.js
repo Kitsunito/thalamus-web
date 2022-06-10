@@ -8,7 +8,7 @@ const AltoRendimiento = () => {
 
     return (
         <article ref={ref} className="index-section">
-            <img src="/images/backGrounds/altoRendimiento.jpeg" alt="" />
+            {window.innerWidth < 1200 ? <img src="/images/backGrounds/altoRendimientoMobile.webp" alt="" /> : <img src="/images/backGrounds/altoRendimiento.webp" alt="" />}
             {inView ? <motion.h2 variants={title2Variants}
                 initial="hidden"
                 animate="visible"
