@@ -19,8 +19,8 @@ const DeportistasDesktop = () => {
             <h3>junto a <span>IGNACIO</span></h3>
           </div>
           <div className='descripcion'>
-            <p>Mi nombre es Ignacio Maestro Puch, naci el 13/03/08 y tengo 14.
-              Empecé a los 11 en una escuelita llamada edmofut, donde me vieron de independiente. donde salí goleador del torneo. En 2015 entro a Atlético donde practico un año y medio fútbol y rugby, siguiendo con el primero por pedido del club. En 2018 me fui a Alemania a jugar pero me lesione las dos rodillas y tuve que parar 8 meses.
+            <p>Mi nombre es Ignacio Maestro Puch, naci el 13/03/03.
+              Empecé a los 11 en una escuelita llamada edmofut, donde me vieron de independiente, donde salí goleador del torneo. En 2015 entro a Atlético donde practico un año y medio fútbol y rugby, siguiendo con el primero por pedido del club. En 2018 me fui a Alemania a jugar pero me lesione las dos rodillas y tuve que parar 8 meses.
               Al mes y medio de volver entro a primera sin tocar reserva,lo que me costo mucho adaptarme ya era un ritmo totalmente distinto. Comienzo a entrenar en Thalamus lo cual me ayuda mucho a mejorar. Este año me convocaron a la selección.
             </p>
           </div>
