@@ -32,7 +32,7 @@ const EjerciciosDesktop = () => {
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLx2jwbxdaQHQDajyl71RofZe_KBUupwZh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 <div>
-                    <h3>Ejercicios de potencia de MM.II</h3>
+                    <h3> de potencia de MM.II</h3>
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLx2jwbxdaQHQhqPWB9iyGwTSG0SGwiwSg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </motion.section>
@@ -64,10 +64,25 @@ const EjerciciosDesktop = () => {
                 variants={plansVariants}
             >
                 <div>
-                    <h3>Ejercicios secundarios de MM.SS</h3>
+                    <h3>secundarios de MM.SS</h3>
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLx2jwbxdaQHT_sj4SBzfmd1QwX-iywboL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
+                <div>
+                    <h3>Zona media</h3>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLx2jwbxdaQHR9VKu1rK9BVML1wTZlMXcy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
             </motion.section>
+            <motion.section className="bg-2"
+                variants={plansVariants}
+            >
+                <div>
+                    <h3>De fuerza isometrica</h3>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLx2jwbxdaQHSQuDUCfMLdQGfiTAzvPQcZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </motion.section>
+
+
+            
         </motion.main>
     )
 }
